@@ -13,9 +13,14 @@
  *= require_tree .
  *= require_self
  */
-
- .custom-wrapper {
-     background-color: #ffd390;
+ * {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+ }
+/*RESPONSIVE NAVBAR*/
+.custom-wrapper {
+     background-color: #000000;
      margin-bottom: 1em;
      -webkit-font-smoothing: antialiased;
      height: 2.1em;
@@ -45,7 +50,7 @@
  }
 
  .custom-toggle .bar {
-     background-color: #777;
+     background-color: #f2f2f2;
      display: block;
      width: 20px;
      height: 2px;
@@ -79,6 +84,16 @@
      -ms-transform: rotate(-45deg);
      transform: rotate(-45deg);
  }
+ .pure-menu-item {
+    padding: 0;
+    margin: 2px;
+    height: 100%;
+}
+.pure-menu-heading {
+    text-transform: uppercase;
+    color: #f2f2f2;
+    margin: 2px;
+}
 
  @media (max-width: 47.999em) {
 
