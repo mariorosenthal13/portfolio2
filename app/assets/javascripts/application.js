@@ -15,7 +15,7 @@
 //= require_tree .
 
 window.addEventListener('load', function() {
-  
+
 
 (function (window, document) {
 var menu = document.getElementById('menu'),
@@ -29,6 +29,9 @@ function toggleHorizontal() {
         }
     );
 };
+AOS.init({
+duration: 1200,
+})
 
 function toggleMenu() {
     // set timeout so that the panel has a chance to roll up

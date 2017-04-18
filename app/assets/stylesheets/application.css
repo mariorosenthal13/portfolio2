@@ -109,7 +109,17 @@
     justify-content: space-around;
 }
 
-
+.pure-img{
+  margin: auto;
+  height: 114px;
+  width: auto;
+}
+.content-subhead{
+  text-align: center;
+}
+.pure-g{
+      justify-content: center;
+}
 
 
  @media (max-width: 47.999em) {
@@ -165,7 +175,7 @@
     top: 100px; left: 0; bottom: 0; right: 0;
     text-align: center;
     text-transform: uppercase;
-    z-index: 30;
+    z-index: 30  ;
 }
 
 /* This is the main heading that appears on the blue section */
@@ -205,6 +215,7 @@
 /* We want to give the content area some more padding */
 .content {
     padding: 1em 1em 3em;
+        padding-bottom: 182px;
 }
 
 /* This is the class used for the main content headers (<h2>) */
